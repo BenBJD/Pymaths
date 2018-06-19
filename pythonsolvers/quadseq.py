@@ -1,5 +1,5 @@
 # Warning: Doesn't work
-# Only output is 'None'
+#
 def quadseq(sequence):
     # First and second differences
     firstdiff1 = (sequence[0] - sequence[1])
@@ -19,6 +19,7 @@ def quadseq(sequence):
         n = ndiff[0] - ndiff[1]
     # Output
     answer = (str(nsqr) + "^2", n, const)
+    return answer
 sequence = []
 for i in range (0,4):
     sequence.append(int(input("Enter number")))
