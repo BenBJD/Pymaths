@@ -6,10 +6,18 @@ h1, h2 {
 h2 {
     font-size: 16px;
 }
-.container, .menubuttons, body, div {
+ body {
     background-color: #263238 !important;
 }
 .calcbutton {
-    margin: 20px 0 0 20px;
-    width: 200px;
+    margin: 0 0 20px 20px;
+    width: 250px;
+    height: 70px;
+}
+.container {
+    margin: 50px 350px;
+}
+#titles {
+    margin: 30px 230px;
+    background-color: #37474F;
 }
