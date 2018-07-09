@@ -1,9 +1,12 @@
 {
-    "name": "electron",
-    "version": "0.1.0",
-    "description": "",
-    "main": "appmain.js",
-    "scripts": {
-        "start": "electron ."
-    }
+  "name": "pymaths",
+  "version": "0.1.0",
+  "description": "",
+  "main": "appmain.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^2.0.4"
+  }
 }

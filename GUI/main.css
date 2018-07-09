@@ -1,31 +1,5 @@
-h1,
-h2 {
-    font-family: sans-serif, Arial;
-    font-size: 18px;
-    color: #ffffff !important;
-}
-
-h2 {
-    font-size: 16px;
-}
-
 body {
-    background-color: #1A2226 !important;
-}
-
-.calcbutton {
-    margin: 0 0 20px 20px;
-    width: 250px;
-    height: 70px;
-}
-
-.container {
-    margin: 50px 350px;
-}
-
-#titles {
-    margin: 30px 230px;
-    background-color: #37474F;
+    background-color: #ffffff !important;
 }
 
 .navbar-light,
@@ -34,12 +8,10 @@ body {
 }
 
 .nav-link {
-    color: #ffffff;
+    color: #24292E !important;
 }
 
 .navbar-light,
 .navbar-nav {
-    background-color: #263238;
-    border: 2px solid #192226;
-    border-radius: 4px;
+    background-color: #24292E;
 }
