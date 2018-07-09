@@ -1,9 +1,9 @@
 {
-  "name": "electron",
-  "version": "0.1.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
-    "start": "electron ."
-  }
+    "name": "electron",
+    "version": "0.1.0",
+    "description": "",
+    "main": "appmain.js",
+    "scripts": {
+        "start": "electron ."
+    }
 }
