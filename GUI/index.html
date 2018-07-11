@@ -39,10 +39,22 @@
             <a href="https://www.github.com/BenBJD/Pymaths.git">Github</a>
         </div>
         <div class="tab-pane fade" id="nav-quadseq" role="tabpanel" aria-labelledby="nav-quadseq-tab">
-
+            <button type="button" onclick="runQuadseq()">Push me</button>
+        <script>
+            const exec = require('child_process').exec;
+            let runQuadseq = function() {
+                let childProcess= exec("python3 ../pythonsolvers/quadseq.py");
+            }
+        </script>
         </div>
         <div class="tab-pane fade" id="nav-quadform" role="tabpanel" aria-labelledby="nav-quadform-tab">
-
+            <button type="button" onclick="runQuadform()">Quadratic Formula</button>
+        <script>
+            const exec = require('child_process').exec;
+            let runQuadform = function() {
+            let childProcess= exec("python3 ../pythonsolvers/quadform.py");
+            }
+        </script>
         </div>
     </div>
 </body>
