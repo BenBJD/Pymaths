@@ -1,7 +1,7 @@
-function calc() {
-    let a = document.getElementById("a-input").value;
-    let b = document.getElementById("b-input").value;
-    let c = document.getElementById("c-input").value;
+function quadForm() {
+    let a = document.getElementById("quadForm-a").value;
+    let b = document.getElementById("quadForm-b").value;
+    let c = document.getElementById("quadForm-c").value;
     console.log(a);
     console.log(b);
     console.log(c);
@@ -18,4 +18,8 @@ function calc() {
     String(ans2);
     document.getElementById("answer1").innerHTML = ans1;
     document.getElementById("answer2").innerHTML = ans2;
+}
+
+function quadSeq() {
+    let seq1 = []
 }
